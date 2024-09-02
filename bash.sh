@@ -26,10 +26,7 @@ folders=(
 
 # Loop through the list of folder names
 for folder in "${folders[@]}"; do
-  # Create the directory
-  mkdir "$folder"
-  
-  # Create a README.md file inside the directory
-  echo "# $folder" > "$folder/README.md"
+  # Create a solution.md file inside the directory
+  echo "Solution for $folder" > "$folder/solution.md"
 done
 
