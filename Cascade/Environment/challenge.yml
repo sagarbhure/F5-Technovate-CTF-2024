@@ -1,0 +1,33 @@
+name: "Cascade"
+author: "roerohan"
+category: Web
+
+description: |
+  Welcome to technovate.
+  http://chall.csivit.com:30203
+
+value: 500
+type: dynamic
+
+decay: 450
+minimum: 100
+
+flags:
+  - technovate{w3lc0me_t0_technovate}
+
+tags:
+  - web
+
+state: hidden
+version: "0.1"
+
+replicas: 1
+containers:
+  server:
+    build: .
+    ports:
+      - containerPort: 9999
+
+expose:
+  - containerPort: 9999
+    nodePort: 30203
