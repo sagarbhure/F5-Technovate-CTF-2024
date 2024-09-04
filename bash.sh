@@ -16,8 +16,6 @@ folders=(
   "Substituted Transmission"
   "Uncharted"
   "ML CTF Challenge"
-  "Feedback"
-  "sssh!! The nuke code"
   "Hidden go"
   "Wishlist"
   "Echoes of Encryption"

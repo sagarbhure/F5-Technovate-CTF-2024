@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>File Library</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body style="background: rgb(149, 255, 88)">
+    <h1 class="text-5xl font-bold text-center my-8">
+      Welcome to my File Library!
+    </h1>
+
+    <div class="text-center text-2xl">
+      <p class="my-4">
+        I use this website to view my favorite <strong>js</strong> and
+        <strong>txt</strong>
+        that I have stored on my server!
+      </p>
+      <p class="my-4">Here's some you may like to read.</p>
+      <a
+        href="/getFile?file=ok.js"
+        class="font-medium text-blue-600 underline dark:text-blue-500 hover:no-underline"
+        >ok.js</a
+      >
+      <br />
+      <a
+        href="/getFile?file=a.cpp"
+        class="font-medium text-blue-600 underline dark:text-blue-500 hover:no-underline"
+        >a.cpp</a
+      >
+    </div>
+
+    <h1 class="text-2xl font-bold text-center my-4 underline">
+      My Favorite Images
+    </h1>
+
+    <div class="flex flex-row w-11/12 flex-wrap gap-12 m-auto mt-6">
+      <img
+        class="w-72"
+        src="https://preview.redd.it/idothistoooften-v0-9iloqdtz91kd1.png?auto=webp&s=bdd82881e5b564b9ae21db0b5bc233a93bc2ca7b"
+      />
+      <img
+        class="w-72"
+        src="https://preview.redd.it/turingcomplete-v0-1msenq0pzvjd1.png?auto=webp&s=1be6f5b8ef2b5b235d19742f1f68045470993a78"
+      />
+      <img class="w-72" src="https://i.imgflip.com/21jfuv.jpg" />
+      <img class="w-72" src="https://i.imgflip.com/2jb0ou.jpg" />
+    </div>
+  </body>
+</html>
