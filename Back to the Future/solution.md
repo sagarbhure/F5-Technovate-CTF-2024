@@ -4,9 +4,8 @@ Here the image.png given doesn't open .
 
 Check the file type using file <filename> command
 
-file image.png
+**file image.png**
 image.png: PNG image data, 1684 x 922, 8-bit/color RGBA, non-interlaced
-
 
 It is of png type.
 There is something wrong. Check the hex codes of this image in hexeditor
@@ -15,4 +14,4 @@ As from the specification of PNG file format, the first 8 bytes of any png file 
 
 Save it as newimage.png and open the image , flag is visible
 
-Flag found -> technovate{movie_back_to_future_2047}
+# Flag found -> technovate{movie_back_to_future_2047}

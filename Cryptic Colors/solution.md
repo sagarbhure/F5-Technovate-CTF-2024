@@ -94,4 +94,4 @@ Here is the breakdown of the hex codes and their corresponding ASCII values to f
     - **Flag Segment:** `24}`
 
 ### Full Flag:
-The concatenated flag is: `techno{had_es_of_fun_20_24}`
+The concatenated flag is: `technovate{shades_of_fun_2024}`
